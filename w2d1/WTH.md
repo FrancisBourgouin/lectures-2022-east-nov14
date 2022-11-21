@@ -1,6 +1,6 @@
 # Tricky concepts & syntax
 
-- Closure (post lecture)
+- Closure (post lecture
 - Recursion (post lecture)
 - Callbacks
 - Unit tests
