@@ -1,0 +1,16 @@
+{
+  "name": "w2d1",
+  "version": "1.0.0",
+  "description": "## Today's menu",
+  "main": "drinkBeverage.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.1.0",
+    "chai": "^4.3.7"
+  }
+}
