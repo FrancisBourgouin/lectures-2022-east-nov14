@@ -10,6 +10,10 @@
 - Revisiting the initial example
 - (Group) Revisiting the example with MtM relationships
 
+Provider.find(name : "Netflix").shows
+
+SELECT \* FROM shows JOIN providers ON providers.id = shows.provider_id WHERE providers.name LIKE "Netflix";
+
 ## Data Modeling
 
 ### The goal of data modeling
