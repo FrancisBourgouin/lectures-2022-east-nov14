@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+.StatementForm form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.StatementForm form select,
+.StatementForm form textarea {
+  width: 30vw;
+}
