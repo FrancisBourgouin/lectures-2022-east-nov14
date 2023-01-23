@@ -13,6 +13,12 @@
 
 ## Integration (Unit + Unit = Integration Hell)
 
-- Select an item, robot will select theirs (Game)
+- Select an item, robot will select theirs, we see the result (Game)
 
 ## End-to-End (User story)
+
+- Select an item, robot will select theirs, we see the result (Game)
+
+
+Mocha & Chai!
+Jest is better! CRA

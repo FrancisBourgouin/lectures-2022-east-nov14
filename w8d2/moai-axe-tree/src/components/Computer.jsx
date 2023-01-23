@@ -1,7 +1,13 @@
 export default function Computer(props) {
+  const { isCheating, toggleCheat } = props;
   return (
     <section className="computer">
-      <span role="img" className="cheating" aria-label="robot">
+      <span
+        role="img"
+        className={isCheating ? "cheating" : ""}
+        aria-label="robot"
+        onClick={toggleCheat}
+      >
         🤖
       </span>
       <div>

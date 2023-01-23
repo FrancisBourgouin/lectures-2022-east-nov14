@@ -1,0 +1,5 @@
+Unit vs Integration tests ?
+
+Unit : Singular unit (one function, one component)
+Integration : Multiple moving parts together ( Integration Hell )
+End-to-End (Feature) : From beginning to end (User stories)
