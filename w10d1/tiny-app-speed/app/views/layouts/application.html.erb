@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TinyAppSpeed</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <style>
+    body{
+      margin:0;
+    }
+    header{
+      display:flex;
+      flex-direction:row;
+      align-items:middle;
+      padding:1em;
+      background:#BADA55;
+      gap:0.5em;
+    }
+
+    header h1{
+      margin-right:auto;
+    }
+
+    main{
+      padding:1em;
+    }
+  </style>
+    <header>
+      <h1>TinyApp!</h1>
+      <% if current_user %>
+        <p>Hello <%= current_user.name %> !</p>
+        <a href="/logout">Logout</a>
+      <% else %>
+      <a href="/login">Login</a>
+      <% end %>
+    </header>
+    <main>
+    <%= yield %>
+    </main>
+  </body>
+</html>
